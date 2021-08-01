@@ -2,20 +2,55 @@
 
 <head>
     <title>Linn & Linns Bröllop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
+.fuck-css
+{
+    width: 100%;
+
+}
+.css-sucks {
+            width: 530px;
+            height: 190px;
+            display: block;
+            margin: auto;
+        }
+    @media only screen and (max-width: 1000px) {
+        .css-sucks {
+            width: 530px;
+            height: 190px;
+            display: block;
+        }
+    }
+    @media only screen and (max-width: 745px) {
+        .css-sucks {
+            width: 371px;
+            height: 130px;
+            display: block;
+        }
+    }
+    @media only screen and (max-width: 475) {
+        .css-sucks {
+            width: 201px;
+            height: 90px;
+            display: block;
+        }
+    }
+
     .fold-image {
         background-image: url("path32.png");
         background-color: #fff;
-        height: 472px;
-        width: 1340px;
-        margin-left: auto;
-        margin-right: auto;
         background-position: fill;
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
     }
+
 
     @font-face {
         font-family: 'Viaoda Libre';
@@ -26,14 +61,29 @@
         font-display: swap;
     }
 
-    .text {
+    .text, p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
+        width: 100%;
+
     }
+    @media only screen and (max-width: 768px) {
+        .text, p, html, body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
 </style>
 
 <body>
-    <h1 class="fold-image"></h1>
+    <div class="fuck-css">
+        <div class="css-sucks">
+            <h1 class="fold-image"></h1>
+        </div>
+    </div>
+
     <div class="text">
         <h2>Schema</h2>
         <p>12:00 - Göra sak</p>
@@ -52,7 +102,8 @@
         <a href="https://g.page/Stelor">
             <p>Gotlands Tofta
         </a></p>
-
+        <h2>Klädsel</h2>
+        <p></p>
         <h2>Datum</h2>
         <p>09-21</p>
         <h2>Hotell i närheten</h2>
