@@ -3,110 +3,9 @@
 <head>
     <title>Linn & Linns Bröllop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-.fuck-css
-{
-    padding-top: 2vh;
-    width: 100%;
-}
-.css-sucks {
-            width: 530px;
-            height: 190px;
-            display: block;
-            margin: auto;
-        }
-        .fuck-css::after{
-        content:'';
-        position:relative;
-        display:block;
-        margin: auto;
-        margin-top: 4vh;
-        width: 530px;
-        height:1px;
-        background:#735F64;
-        z-index:1;
-    }
-    @media only screen and (max-width: 1000px) {
-        .css-sucks {
-            width: 530px;
-            height: 190px;
-        }
-        .fuck-css::after{
-        width: 530px;
-        }
-    }
-    @media only screen and (max-width: 745px) {
-        .css-sucks {
-            width: 371px;
-            height: 134px;
-        }
-        .fuck-css::after{
-        width: 371px;
-        }
 
-    }
-    @media only screen and (max-width: 475px) {
-        .css-sucks {
-            width: 251px;
-            height: 92px;
-        }
-        .fuck-css::after{
-        width: 251px;
-        }
-
-    }
-    @media only screen and (max-width: 445px) {
-        .css-sucks {
-            width: 175px;
-            height: 65px;
-        }
-        .fuck-css::after{
-        width: 175px;
-        }
-    }
-
-    .fold-image {
-        background-image: url("path32.png");
-        background-color: #fff;
-        background-position: fill;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-left: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        height: 100%;
-    }
-    .first-subheading {
-        margin-top: 5vh;
-    }
-
-
-    @font-face {
-        font-family: 'Viaoda Libre';
-        src: url('ViaodaLibre-Regular.woff2') format('woff2'),
-            url('ViaodaLibre-Regular.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
-
-    .text, p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-        width: 100%;
-
-    }
-    @media only screen and (max-width: 768px) {
-        .text, p, html, body {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-align: center;
-            width: 100%;
-        }
-    }
-
-</style>
 
 <body>
     <div class="fuck-css">
@@ -123,79 +22,98 @@
         <h2>Address</h2>
         <a href="https://g.page/Stelor">
             <p>Stelor Västergarn 117
-        </a></p>
-        <a href="https://g.page/Stelor">
+            </p>
             <p>622 30
-        </a></p>
-        <a href="https://g.page/Stelor">
+            </p>
             <p>Gotlands Tofta
-        </a></p>
+        </a>
+        </p>
         <h2>Klädsel</h2>
         <p>Valfri</p>
         <h2>Datum</h2>
         <p>2022-08-27</p>
         <h2>OSA</h2>
-        <p>Meddela oss vem/vilka som kommer senast den 1 juli 2022:</p>
+        <p class="longtext">Meddela oss vem/vilka som kommer senast den 1 juli 2022:</p>
         <p>
             <a href="mailto: linnochlinnrsvp@gmail.com ?subject=Kommer%3A%20namn&body=Hej!%20Vi%20kommer%20p%C3%A5%20br%C3%B6llopet%3A%0D%0A-%0D%0A%0D%0A(Ange%20specialkost%20efter%20namn)">
                 linnochlinnrsvp@gmail.com </a>
         </p>
         <h2>Hotell i närheten</h2>
-        <div class="hotell item">
+        <div class="items">
+            <div class="hotell">
+                <a class="sitelink" href="http://www.ljungsfemrum.se/">
+                    <p>Ljungs Fem Rum
+                </a> (<a href="https://g.page/ljungsfemrum">Karta</a>)</p>
 
-            <a href="http://www.ljungsfemrum.se/">
-                <p>Ljungs Fem Rum
-            </a> (<a href="https://g.page/ljungsfemrum">Karta</a>)</p>
+            </div>
+            <div class="hotell">
+                <a class="sitelink" href="http://www.strandvagenspensionat.se/8">
+                    <p>Strandvägens Pensionat
+                </a> (<a href="https://goo.gl/maps/XhusRQfS4A37Der17">Karta</a>) </p>
 
+            </div>
+            <div class="hotell">
 
-            <a href="http://www.strandvagenspensionat.se/8">
-                <p>Strandvägens Pensionat
-            </a> (<a href="https://goo.gl/maps/XhusRQfS4A37Der17">Karta</a>) </p>
+                <a class="sitelink" href="http://kronholmensgard.se/">
+                    <p>Kronholmens Gård
+                </a> (<a href="https://goo.gl/maps/YPHAksXf58hMoFpv9">Karta</a>) </p>
 
+            </div>
+            <div class="hotell">
+                <a class="sitelink" href="http://www.bjorkhagaby.se/">
+                    <p>Björkhaga By
+                </a> (<a href="https://goo.gl/maps/u3LbVbtrkE1sG5bT6">Karta</a>) </p>
 
-            <a href="http://kronholmensgard.se/">
-                <p>Kronholmens Gård
-            </a> (<a href="https://goo.gl/maps/YPHAksXf58hMoFpv9">Karta</a>) </p>
+            </div>
+            <div class="hotell">
 
+                <a class="sitelink" href="http://www.snackan.nu/">
+                    <p>Snäckan
+                </a> (<a href="https://goo.gl/maps/u1cwGLAopb9Jxf9o7">Karta</a>) </p>
 
-            <a href="https://www.gotlandactive.se/">
-                <p>Björkhaga Bullerbyn
-            </a> (<a href="https://goo.gl/maps/8yzKp4DzUQLpexA3A">Karta</a>) </p>
+            </div>
+            <div class="hotell">
+                <a class="sitelink" href="http://www.warfsholm.se/">
+                    <p>Warfsholm
+                </a> (<a href="https://goo.gl/maps/v1PDv9pbUrT7Cr2b6">Karta</a>) </p>
 
-            <a href="http://www.bjorkhagaby.se/">
-                <p>Björkhaga By
-            </a> (<a href="https://goo.gl/maps/u3LbVbtrkE1sG5bT6">Karta</a>) </p>
+            </div>
+            <div class="hotell">
+                <a class="sitelink" href="http://www.bjorkhagastrandby.se/">
+                    <p>Björkhaga Strandby
+                </a> (<a href="https://goo.gl/maps/QLJ2c7sEawsu8P2L7">Karta</a>) </p>
 
-            <a href="http://www.snackan.nu/">
-                <p>Snäckan
-            </a> (<a href="https://goo.gl/maps/u1cwGLAopb9Jxf9o7">Karta</a>) </p>
+            </div>
+            <div class="hotell">
 
-            <a href="http://www.warfsholm.se/">
-                <p>Warfsholm
-            </a> (<a href="https://goo.gl/maps/v1PDv9pbUrT7Cr2b6">Karta</a>) </p>
+                <a class="sitelink" href="https://bit.ly/KlintehamnVandrarhem">
+                    <p>Klintehamn Vandrarhem
+                </a> (<a href="https://goo.gl/maps/VNsVukboC5kGaNiy9">Karta</a>) </p>
 
-            <a href="http://www.bjorkhagastrandby.se/">
-                <p>Björkhaga Strandby
-            </a> (<a href="https://goo.gl/maps/QLJ2c7sEawsu8P2L7">Karta</a>) </p>
+            </div>
+            <div class="hotell">
+                <a class="sitelink" href="http://www.toftagarden.se/">
+                    <p>Hotel Toftagården
+                </a> (<a href="https://goo.gl/maps/gpyzHJrvttn2QAcy59">Karta</a>) </p>
 
-            <a href="https://bit.ly/KlintehamnVandrarhem">
-                <p>Klintehamn Vandrarhem
-            </a> (<a href="https://goo.gl/maps/VNsVukboC5kGaNiy9">Karta</a>) </p>
+            </div>
+            <div class="hotell">
 
-            <a href="http://www.toftagarden.se/">
-                <p>Hotel Toftagården
-            </a> (<a href="https://goo.gl/maps/gpyzHJrvttn2QAcy59">Karta</a>) </p>
+                <a class="sitelink" href="http://www.toftacamping.se/">
+                    <p>Tofta Camping
+                </a> (<a href="https://g.page/Tofta-Camping-Gotland?share">Karta</a>) </p>
 
-            <a href="http://www.toftacamping.se/">
-                <p>Tofta Camping
-            </a> (<a href="https://g.page/Tofta-Camping-Gotland?share">Karta</a>) </p>
+            </div>
+            <div class="hotell">
 
-            <a href="http://www.toftastrand.se/">
-                <p>Tofta Strandpensionat
-            </a> (<a href="https://g.page/Toftastrand?share">Karta</a>) </p>
+                <a class="sitelink" href="http://www.toftastrand.se/">
+                    <p>Tofta Strandpensionat
+                </a> (<a href="https://g.page/Toftastrand?share">Karta</a>) </p>
+
+            </div>
 
         </div>
-
+    </div>
     </div>
 </body>
 
