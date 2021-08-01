@@ -5,7 +5,7 @@
     background: url("2.png") no-repeat, url("1.png") no-repeat;
     background-size: 400px auto;
     background-position-x: 5vw, 60vw;
-    background-position-y: -10vw, -10vw;
+    background-position-y: -2vw, -2vw;
     padding-bottom: 300px;
     margin-bottom: -300px;
 }
@@ -42,8 +42,8 @@
         height: 190px;
     }
     .fuck-css {
-        background-position-x: -5vw, 60vw;
-        background-position-y: -20vw, -10vw;
+        background-position-x: 5vw, 60vw;
+        background-position-y: -2vw, -2vw;
     }
     .fuck-css::after {
         width: 530px;
@@ -59,9 +59,9 @@
         height: 134px;
     }
     .fuck-css {
-        background-size: 200px auto;
-        background-position-x: -5vw, 60vw;
-        background-position-y: -20vw, -10vw;
+        background-size: 250px auto;
+        background-position-x: 5vw, 60vw;
+        background-position-y: -2vw, -2vw;
     }
     .fuck-css::after {
         width: 371px;
@@ -77,9 +77,9 @@
         height: 92px;
     }
     .fuck-css {
-        background-size: 100px auto;
-        background-position-x: 5vw, 65vw;
-        background-position-y: 5vw, 10vw;
+        background-size: 150px auto;
+        background-position-x: 5vw, 60vw;
+        background-position-y: -2vw, -2vw;
     }
     .fuck-css::after {
         width: 251px;
