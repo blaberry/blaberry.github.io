@@ -69,7 +69,7 @@
 
 .fold-image {
     background-image: url("path32.png");
-    background-color: #fff;
+    background-color: #FAF9F6;
     background-position: fill;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,22 +92,14 @@
     font-display: swap;
 }
 
-.text,
-p {
+.text {
     font-family: 'Viaoda Libre', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-    .text,
-    p,
-    html,
-    body {
-        font-family: 'Viaoda Libre', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-        width: 100%;
-    }
+body {
+    background-color: #FAF9F6;
 }
 
 .footer {
