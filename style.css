@@ -113,11 +113,8 @@
 
 body {
     background-color: #FAF9F6;
-    background: url("2.png") left top no-repeat, url("1.png") right top no-repeat;
-    background-size: 200px auto;
+    background: url("2.png") left bottom no-repeat, url("1.png") right top no-repeat;
 }
-
-body::after {}
 
 .footer {
     padding: 30px;
