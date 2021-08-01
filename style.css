@@ -82,7 +82,7 @@
 
 .fold-image {
     background-image: url("path32.png");
-    background-color: #FAF9F6;
+    background-color: transparent;
     background-position: fill;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +113,11 @@
 
 body {
     background-color: #FAF9F6;
+    background: url("2.png") left top no-repeat, url("1.png") right top no-repeat;
+    background-size: 200px auto;
 }
+
+body::after {}
 
 .footer {
     padding: 30px;
