@@ -1,6 +1,13 @@
 .fuck-css {
     padding-top: 2vh;
+    overflow: visible;
     width: 100%;
+    background: url("1.png") no-repeat, url("2.png") no-repeat;
+    background-size: 400px auto;
+    background-position-x: 5vw, 60vw;
+    background-position-y: -10vw, -10vw;
+    padding-bottom: 300px;
+    margin-bottom: -300px;
 }
 
 .css-sucks {
@@ -8,6 +15,7 @@
     height: 190px;
     display: block;
     margin: auto;
+    overflow: visible;
 }
 
 .fuck-css::after {
@@ -32,6 +40,10 @@
     .css-sucks {
         width: 530px;
         height: 190px;
+    }
+    .fuck-css {
+        background-position-x: -5vw, 60vw;
+        background-position-y: -20vw, -10vw;
     }
     .fuck-css::after {
         width: 530px;
@@ -113,7 +125,6 @@
 
 body {
     background-color: #FAF9F6;
-    background: url("2.png") left bottom no-repeat, url("1.png") right top no-repeat;
 }
 
 .footer {
