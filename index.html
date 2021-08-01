@@ -7,6 +7,7 @@
 <style>
 .fuck-css
 {
+    padding-top: 2vh;
     width: 100%;
 }
 .css-sucks {
@@ -15,10 +16,24 @@
             display: block;
             margin: auto;
         }
+        .fuck-css::after{
+        content:'';
+        position:relative;
+        display:block;
+        margin: auto;
+        margin-top: 4vh;
+        width: 530px;
+        height:1px;
+        background:#735F64;
+        z-index:1;
+    }
     @media only screen and (max-width: 1000px) {
         .css-sucks {
             width: 530px;
             height: 190px;
+        }
+        .fuck-css::after{
+        width: 530px;
         }
     }
     @media only screen and (max-width: 745px) {
@@ -26,17 +41,28 @@
             width: 371px;
             height: 134px;
         }
+        .fuck-css::after{
+        width: 371px;
+        }
+
     }
     @media only screen and (max-width: 475px) {
         .css-sucks {
             width: 251px;
             height: 92px;
         }
+        .fuck-css::after{
+        width: 251px;
+        }
+
     }
     @media only screen and (max-width: 445px) {
         .css-sucks {
             width: 175px;
             height: 65px;
+        }
+        .fuck-css::after{
+        width: 175px;
         }
     }
 
@@ -51,6 +77,9 @@
         margin-right: auto;
         width: 100%;
         height: 100%;
+    }
+    .first-subheading {
+        margin-top: 5vh;
     }
 
 
@@ -87,15 +116,8 @@
     </div>
 
     <div class="text">
-        <h2>Vigsel och bröllopsfest</h2>
-        <p>Vi gifter oss på Hotell Stelor den 27/8 2022. 
-        </p>
-        <h2>OSA</h2>
-        <p>Meddela oss vem/vilka som kommer senast den 1 juli 2022: </p>
-        <p>
-            <a href="mailto: linnochlinnrsvp@gmail.com ?subject=Kommer%3A%20namn&body=Hej!%20Vi%20kommer%20p%C3%A5%20br%C3%B6llopet%3A%0D%0A-%0D%0A%0D%0A(Ange%20specialkost%20efter%20namn)">
-                linnochlinnrsvp@gmail.com </a>
-        </p>
+        <h2 class="subheading first-subheading">Vigsel och bröllopsfest</h2>
+        <p>Vi gifter oss på Hotell Stelor den 27/8 2022.</p>
         <h2>Schema</h2>
         <p>Uppdateras när det närmar sig.</p>
         <h2>Address</h2>
@@ -112,6 +134,12 @@
         <p>Valfri</p>
         <h2>Datum</h2>
         <p>2022-08-27</p>
+        <h2>OSA</h2>
+        <p>Meddela oss vem/vilka som kommer senast den 1 juli 2022:</p>
+        <p>
+            <a href="mailto: linnochlinnrsvp@gmail.com ?subject=Kommer%3A%20namn&body=Hej!%20Vi%20kommer%20p%C3%A5%20br%C3%B6llopet%3A%0D%0A-%0D%0A%0D%0A(Ange%20specialkost%20efter%20namn)">
+                linnochlinnrsvp@gmail.com </a>
+        </p>
         <h2>Hotell i närheten</h2>
         <div class="hotell item">
 
