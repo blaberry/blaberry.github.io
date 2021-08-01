@@ -1,0 +1,111 @@
+.fuck-css {
+    padding-top: 2vh;
+    width: 100%;
+}
+
+.css-sucks {
+    width: 530px;
+    height: 190px;
+    display: block;
+    margin: auto;
+}
+
+.fuck-css::after {
+    content: '';
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 4vh;
+    width: 530px;
+    height: 1px;
+    background: #735F64;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+    .css-sucks {
+        width: 530px;
+        height: 190px;
+    }
+    .fuck-css::after {
+        width: 530px;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .css-sucks {
+        width: 371px;
+        height: 134px;
+    }
+    .fuck-css::after {
+        width: 371px;
+    }
+    .longtext {
+        width: 200px;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .css-sucks {
+        width: 251px;
+        height: 92px;
+    }
+    .fuck-css::after {
+        width: 251px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .css-sucks {
+        width: 175px;
+        height: 65px;
+    }
+    .fuck-css::after {
+        width: 175px;
+    }
+}
+
+.fold-image {
+    background-image: url("path32.png");
+    background-color: #fff;
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.first-subheading {
+    margin-top: 5vh;
+}
+
+@font-face {
+    font-family: 'Viaoda Libre';
+    src: url('ViaodaLibre-Regular.woff2') format('woff2'), url('ViaodaLibre-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.text,
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .text,
+    p,
+    html,
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        width: 100%;
+    }
+}
