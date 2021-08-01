@@ -2,7 +2,7 @@
     padding-top: 2vh;
     overflow: visible;
     width: 100%;
-    background: url("1.png") no-repeat, url("2.png") no-repeat;
+    background: url("2.png") no-repeat, url("1.png") no-repeat;
     background-size: 400px auto;
     background-position-x: 5vw, 60vw;
     background-position-y: -10vw, -10vw;
@@ -58,6 +58,11 @@
         width: 371px;
         height: 134px;
     }
+    .fuck-css {
+        background-size: 200px auto;
+        background-position-x: -5vw, 60vw;
+        background-position-y: -20vw, -10vw;
+    }
     .fuck-css::after {
         width: 371px;
     }
@@ -70,6 +75,11 @@
     .css-sucks {
         width: 251px;
         height: 92px;
+    }
+    .fuck-css {
+        background-size: 100px auto;
+        background-position-x: 5vw, 65vw;
+        background-position-y: 5vw, 10vw;
     }
     .fuck-css::after {
         width: 251px;
