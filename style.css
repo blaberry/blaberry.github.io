@@ -133,6 +133,11 @@
     width: 100%;
 }
 
+.form-link {
+    font-weight: bold;
+    width: 100%;
+}
+
 body {
     background-color: #FAF9F6;
 }
