@@ -2,7 +2,7 @@
     padding-top: 2vh;
     overflow: visible;
     width: 100%;
-    background: url("http://linnochlinn.se/2.png") no-repeat, url("http://linnochlinn.se/1.png") no-repeat;
+    background: url("https://linnochlinn.se/2.png") no-repeat, url("https://linnochlinn.se/1.png") no-repeat;
     background-size: 400px auto;
     background-position-x: 5vw, 60vw;
     background-position-y: -2vw, -2vw;
@@ -103,7 +103,7 @@
 }
 
 .fold-image {
-    background-image: url("http://linnochlinn.se/path32.png");
+    background-image: url("https://linnochlinn.se/path32.png");
     background-color: transparent;
     background-position: fill;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@
 
 @font-face {
     font-family: 'Viaoda Libre';
-    src: url('http://linnochlinn.se/ViaodaLibre-Regular.woff2') format('woff2'), url('http://linnochlinn.se/ViaodaLibre-Regular.woff') format('woff');
+    src: url('https://linnochlinn.se/ViaodaLibre-Regular.woff2') format('woff2'), url('https://linnochlinn.se/ViaodaLibre-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
